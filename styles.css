@@ -1,118 +1,120 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Overpass', sans-serif;
-    font-size: 0.95rem;
-    box-sizing: border-box;
-    background-color: hsl(216, 12%, 8%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 1.5rem;
-    min-height: 100vh;
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem;
+  min-height: 100vh;
 }
-ul{
-    list-style-type:none ;
+ul {
+  list-style-type: none;
 }
-button{
-    font-family: inherit;
+button {
+  font-family: inherit;
 }
-p{
-    line-height: 1.8;
+p {
+  line-height: 1.8;
 }
-.main_container, .thank_you{
-    background-color: hsl(213, 19%, 18%);
-    padding: 1.5rem;
-    border-radius: 0.625rem;
+.main_container,
+.thank_you {
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.5rem;
+  border-radius: 0.625rem;
+  max-width: 25rem;
 }
-.main_container img{
-    background-color: hsl(213,20%, 22%);
-    padding: 0.5rem;
-    border-radius: 50%;
+.main_container img {
+  background-color: hsl(213, 20%, 22%);
+  padding: 0.5rem;
+  border-radius: 50%;
 }
-.main_container h1{
-    color: #ffffff;
-    margin: 2rem 0 1rem;
+.main_container h1 {
+  color: #ffffff;
+  margin: 2rem 0 1rem;
 }
-.main_container p{
-    color: hsl(217, 12%, 63%);
-    margin-bottom: 1rem;
+.main_container p {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 1rem;
 }
-.main_container ul{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 2rem;
+.main_container ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
 }
-.main_container ul li button{
-    width: 3rem;
-    height: 3rem;
-    border: none;
-    background-color: hsl(213, 20%, 22%);
-    color: #ffffff;
-    padding-top: 0.2rem;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.3s;
+.main_container ul li button {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background-color: hsl(213, 20%, 22%);
+  color: #ffffff;
+  padding-top: 0.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
 }
-.main_container ul li button:hover{
-    background-color: hsl(25, 93%, 53%);
+.main_container ul li button:hover {
+  background-color: hsl(25, 93%, 53%);
 }
-.main_container ul li button:focus{
-    background-color: hsl(217, 12%, 63%);
+.main_container ul li button:focus {
+  background-color: hsl(217, 12%, 63%);
 }
-.submit_button{
-    background-color: hsl(25, 93%, 53%);
-    color: #ffffff;
-    width: 100%;
-    padding: 0.8rem 0 0.6rem;
-    border: none;
-    border-radius: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
+.submit_button {
+  background-color: hsl(25, 93%, 53%);
+  color: #ffffff;
+  width: 100%;
+  padding: 0.8rem 0 0.6rem;
+  border: none;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
-.submit_button:hover{
-    background-color: #ffffff;
-    color: hsl(25, 93%, 53%);
+.submit_button:hover {
+  background-color: #ffffff;
+  color: hsl(25, 93%, 53%);
 }
-.thank_you{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.thank_you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.thank_you img{
-    display: block;
-    margin: 0 auto 2rem;
+.thank_you img {
+  display: block;
+  margin: 0 auto 2rem;
 }
-.thank_you p.gray{
-    font-size: 0.9rem;
-    color: hsl(25, 93%, 53%);
-    background-color: hsl(213, 20%, 22%);
-    border-radius: 2rem;
-    padding: 0.2rem 0.5rem 0;
-    margin-bottom: 2rem;
-    font-size: 0.8rem;
+.thank_you p.gray {
+  font-size: 0.9rem;
+  color: hsl(25, 93%, 53%);
+  background-color: hsl(213, 20%, 22%);
+  border-radius: 2rem;
+  padding: 0.2rem 0.5rem 0;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
 }
-.thank_you h2{
-    color: #ffffff;
-    margin-bottom: 1rem;
+.thank_you h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
 }
-.thank_you p{
-    color: hsl(217, 12%, 63%);
-    margin-bottom: 2rem;
+.thank_you p {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 2rem;
 }
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
-.attribution{
+.attribution {
   font-size: 14px;
   text-align: center;
   color: #ffffff;
